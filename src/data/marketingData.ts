@@ -1,9 +1,13 @@
 import { CaseStudy, PricingTier, ServiceItem } from '../types';
+import heroImg from '../assets/images/hero_marketing_growth_1794054908165.jpg';
+import socialAdImg from '../assets/images/social_ad_creative_showcase_1794054909795.jpg';
+import seoImg from '../assets/images/seo_analytics_performance_1794054909624.jpg';
+import portraitImg from '../assets/images/marketer_portrait_consultant_1794054908508.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_marketing_growth_1794054908165.jpg';
-export const SOCIAL_AD_IMAGE = '/src/assets/images/social_ad_creative_showcase_1794054909795.jpg';
-export const SEO_IMAGE = '/src/assets/images/seo_analytics_performance_1794054909624.jpg';
-export const CONSULTANT_PORTRAIT = '/src/assets/images/marketer_portrait_consultant_1794054908508.jpg';
+export const HERO_IMAGE = heroImg;
+export const SOCIAL_AD_IMAGE = socialAdImg;
+export const SEO_IMAGE = seoImg;
+export const CONSULTANT_PORTRAIT = portraitImg;
 
 export const CLIENT_LOGOS = [
   { name: 'Aura Living', symbol: 'AUR' },
